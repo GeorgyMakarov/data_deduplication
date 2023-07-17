@@ -57,6 +57,7 @@ The pseudo code of this algorithm looks as following:
 
 ```
 for cut-off date in [1, 2, 3, ..., n]:
+  
   for user in unique(users):
     filter data to user
     sort records in ascending order by flight date
@@ -67,10 +68,10 @@ for cut-off date in [1, 2, 3, ..., n]:
       leave quotes with closed sales for this group (sales falg = 0)
     else:
       leave quote with the last non-closed sale (latest interaction time)
-    
     return quotes list
-    filter input data to contain the quotes in the list
-    compute new close ratio
+  
+  filter input data to contain the quotes in the list
+  compute new close ratio
 ```
 
 The `Python` implementation of the algorithm is in [data_deduplication.py](https://github.com/GeorgyMakarov/data_deduplication/blob/main/data_deduplication.py) file.
