@@ -84,4 +84,6 @@ data. At the same time, the correct value of cut off depends on the domain
 knowledge of a user as aggregating the data by larger intervals will finally
 result in a 100 percent close ratio.
 
+![Close ratio evolution](https://github.com/GeorgyMakarov/data_deduplication/blob/main/close_ratio_evo.png)
+
 
