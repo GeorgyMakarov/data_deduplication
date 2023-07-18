@@ -76,6 +76,8 @@ for cut-off date in [1, 2, 3, ..., n]:
 
 The `Python` implementation of the algorithm is in [data_deduplication.py](https://github.com/GeorgyMakarov/data_deduplication/blob/main/data_deduplication.py) file.
 
+The same approach in `R` is in [distance_calculator.R](https://github.com/GeorgyMakarov/data_deduplication/blob/main/distance_calculator.R) and supporting functions are in [helpers.R](https://github.com/GeorgyMakarov/data_deduplication/blob/main/helpers.R)
+
 ## Summary
 
 The result of this operation shows that the close ratio will grow as we iterate
